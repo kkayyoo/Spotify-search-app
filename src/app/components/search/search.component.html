@@ -1,3 +1,8 @@
-<p>
-  search works!
-</p>
+<h1>Need Music?</h1>
+<p class="lead">There are millions of songs on Spotify. Play your favorites, discover new tracks, and build the perfect collection.</p>
+
+<form>
+    <div class="form-group">
+        <input type="text" class="form-control" placeholder="Search Artists..." [(ngModel)]="searchStr" name="searchStr" (keyup)="searchMusic()">
+    </div>
+</form>
