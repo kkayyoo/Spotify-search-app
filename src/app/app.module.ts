@@ -7,15 +7,18 @@ import { AppComponent } from './app.component';
 import { NavComponent } from './components/nav/nav.component';
 import { AboutComponent } from './components/about/about.component';
 import { SearchComponent } from './components/search/search.component';
+import { ArtistComponent } from './components/artist/artist.component';
 
 import { routing } from './app.routing';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
     AboutComponent,
-    SearchComponent
+    SearchComponent,
+    ArtistComponent,
   ],
   imports: [
     BrowserModule,
